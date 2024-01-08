@@ -8,7 +8,7 @@ int main()
 {
    
     char s[100];
-    scanf("%[^\n]%*c", s);
+    scanf("%[^\n]%*c", s); // To write sequance of character
     printf("Hello, World!\n");
     printf("%s", s);
 
