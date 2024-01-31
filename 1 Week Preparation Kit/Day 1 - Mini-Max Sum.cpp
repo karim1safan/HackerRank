@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-#include <vector>
+
 using namespace std;
 
 int main()
@@ -19,5 +19,6 @@ int main()
         sum += arr[i];
 
     cout << sum - arr[N - 1] << " " << sum - arr[0] << endl;
+	
     return 0;
 }
